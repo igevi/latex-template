@@ -1,0 +1,22 @@
+\documentclass{article}
+
+\usepackage[margin=2.5cm]{geometry}
+\usepackage[backend=biber,bibencoding=utf8,style=apa]{biblatex}
+\addbibresource{bibliography.bib}
+\usepackage{graphicx}
+\graphicspath{ {./images} }
+
+\title{Document Title}
+\author{Author Name}
+\date{}
+
+\begin{document}
+
+\maketitle
+
+\input{./sections/example-section.tex}
+
+\newpage
+\printbibliography
+
+\end{document}

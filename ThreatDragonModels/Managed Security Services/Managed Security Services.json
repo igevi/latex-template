@@ -9,7 +9,446 @@
       {
         "title": "Threat Model",
         "thumbnail": "./public/content/images/thumbnail.jpg",
-        "id": 0
+        "id": 0,
+        "diagramJson": {
+          "cells": [
+            {
+              "type": "tm.Actor",
+              "size": {
+                "width": 160,
+                "height": 80
+              },
+              "position": {
+                "x": 926,
+                "y": 227
+              },
+              "angle": 0,
+              "id": "4ac209df-47a0-4095-a779-a9f44155c8c8",
+              "z": 1,
+              "hasOpenThreats": true,
+              "threats": [
+                {
+                  "status": "Open",
+                  "severity": "Medium",
+                  "title": "awfasfsfasewfwaf",
+                  "type": "Repudiation"
+                }
+              ],
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "Bluefin Non-Malicious\nInsider"
+                },
+                ".element-text": {
+                  "class": "element-text hasOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Actor",
+              "size": {
+                "width": 160,
+                "height": 80
+              },
+              "position": {
+                "x": 875,
+                "y": 437
+              },
+              "angle": 0,
+              "id": "c8a14f1f-2791-48d0-9b5b-482cee1f5881",
+              "z": 2,
+              "hasOpenThreats": true,
+              "threats": [
+                {
+                  "status": "Open",
+                  "severity": "Medium",
+                  "title": "wadawdawdawdawd",
+                  "type": "Repudiation"
+                }
+              ],
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "Bluefin Malicious Insider"
+                },
+                ".element-text": {
+                  "class": "element-text hasOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Actor",
+              "size": {
+                "width": 160,
+                "height": 80
+              },
+              "position": {
+                "x": 337,
+                "y": 656
+              },
+              "angle": 0,
+              "id": "e701bea3-6db2-471d-81e4-2588734deed3",
+              "z": 3,
+              "hasOpenThreats": true,
+              "threats": [
+                {
+                  "status": "Open",
+                  "severity": "Medium",
+                  "title": "warewarrf",
+                  "type": "Information disclosure"
+                }
+              ],
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "Non-Malicious Service\nProvider Insider"
+                },
+                ".element-text": {
+                  "class": "element-text hasOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Actor",
+              "size": {
+                "width": 160,
+                "height": 80
+              },
+              "position": {
+                "x": 515,
+                "y": 654
+              },
+              "angle": 0,
+              "id": "51c47dbe-b919-4f1e-974a-a1b1e5568e8b",
+              "z": 4,
+              "hasOpenThreats": true,
+              "threats": [
+                {
+                  "status": "Open",
+                  "severity": "Medium",
+                  "title": "sefsefesfsef",
+                  "type": "Tampering"
+                }
+              ],
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "Malicious Service\nProvider Insider"
+                },
+                ".element-text": {
+                  "class": "element-text hasOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Actor",
+              "size": {
+                "width": 160,
+                "height": 80
+              },
+              "position": {
+                "x": 241,
+                "y": 103
+              },
+              "angle": 0,
+              "id": "e6b9de5e-e13b-49b4-b231-7dd1b41d72a4",
+              "z": 5,
+              "hasOpenThreats": true,
+              "threats": [
+                {
+                  "status": "Open",
+                  "severity": "Medium",
+                  "type": "Denial of service",
+                  "title": "Activist DoS"
+                }
+              ],
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "Activists/APT"
+                },
+                ".element-text": {
+                  "class": "element-text hasOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Actor",
+              "size": {
+                "width": 160,
+                "height": 80
+              },
+              "position": {
+                "x": 338,
+                "y": 562
+              },
+              "angle": 0,
+              "id": "826b2933-244d-458f-8873-b8097ed0e662",
+              "z": 7,
+              "hasOpenThreats": true,
+              "threats": [
+                {
+                  "status": "Open",
+                  "severity": "Medium",
+                  "title": "awdwdawdwd",
+                  "type": "Repudiation"
+                }
+              ],
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "Service Provider"
+                },
+                ".element-text": {
+                  "class": "element-text hasOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Store",
+              "size": {
+                "width": 160,
+                "height": 80
+              },
+              "position": {
+                "x": 766,
+                "y": 319
+              },
+              "angle": 0,
+              "id": "3f05de9f-fc25-431f-83c6-89c1eae1b55a",
+              "z": 8,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "Bluefin Log Store"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Boundary",
+              "smooth": true,
+              "source": {
+                "x": 341,
+                "y": 246
+              },
+              "target": {
+                "x": 650,
+                "y": 94
+              },
+              "vertices": [
+                {
+                  "x": 460,
+                  "y": 255
+                },
+                {
+                  "x": 564,
+                  "y": 235
+                }
+              ],
+              "id": "aa960423-3c20-4b77-9277-7ce25920dcdf",
+              "z": 9,
+              "attrs": {}
+            },
+            {
+              "type": "tm.Boundary",
+              "smooth": true,
+              "source": {
+                "x": 297,
+                "y": 428
+              },
+              "target": {
+                "x": 841,
+                "y": 655
+              },
+              "vertices": [
+                {
+                  "x": 660,
+                  "y": 474
+                }
+              ],
+              "id": "4b3d1b43-0e6e-47a6-bc75-aadb33b3f616",
+              "z": 10,
+              "attrs": {}
+            },
+            {
+              "type": "tm.Store",
+              "size": {
+                "width": 160,
+                "height": 80
+              },
+              "position": {
+                "x": 512,
+                "y": 565
+              },
+              "angle": 0,
+              "id": "edd9f9a1-885c-40b7-b49f-3b6bc5e22a34",
+              "z": 12,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "Security Service Provider"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Flow",
+              "smooth": true,
+              "source": {
+                "x": 839,
+                "y": 413
+              },
+              "target": {
+                "x": 617,
+                "y": 552
+              },
+              "vertices": [
+                {
+                  "x": 783,
+                  "y": 491
+                },
+                {
+                  "x": 680,
+                  "y": 505
+                }
+              ],
+              "id": "e4a6467d-fa1d-492b-89f1-089b96a2f910",
+              "labels": [
+                {
+                  "position": {
+                    "distance": 0.4755570142828755,
+                    "offset": 2.9576612673699856
+                  },
+                  "attrs": {
+                    "text": {
+                      "text": "Network &\nInfrastructure Data",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 13,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Store",
+              "size": {
+                "width": 160,
+                "height": 80
+              },
+              "position": {
+                "x": 411,
+                "y": 105
+              },
+              "angle": 0,
+              "id": "99ec981b-7475-4f20-a590-ec930f38a334",
+              "z": 14,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "Client Interface (Cloud)"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Flow",
+              "smooth": true,
+              "source": {
+                "id": "99ec981b-7475-4f20-a590-ec930f38a334"
+              },
+              "target": {
+                "id": "3f05de9f-fc25-431f-83c6-89c1eae1b55a"
+              },
+              "vertices": [],
+              "id": "57df1bb3-bfea-46c5-82f8-ae6ecca32ca4",
+              "labels": [
+                {
+                  "position": 0.5,
+                  "attrs": {
+                    "text": {
+                      "text": "Customer Data &\nCloud Telemetry",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 15,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Boundary",
+              "smooth": true,
+              "source": {
+                "x": 844,
+                "y": 160
+              },
+              "target": {
+                "x": 883,
+                "y": 560
+              },
+              "vertices": [
+                {
+                  "x": 692,
+                  "y": 364
+                }
+              ],
+              "id": "d0a67a43-decd-4ee7-be65-628576dca0f6",
+              "z": 16,
+              "attrs": {}
+            }
+          ]
+        },
+        "size": {
+          "height": 608.800048828125,
+          "width": 1107
+        }
       }
     ]
   }
